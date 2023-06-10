@@ -1,9 +1,11 @@
 import React from "react";
 
-const Product = () => {
-    <div>
-        <h1>Comming Soon....</h1>
-    </div>
-};
-
-export default Product;
+export default function Products() {
+    return (
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <div>
+      products
+      </div>
+      </main>
+    )
+  }

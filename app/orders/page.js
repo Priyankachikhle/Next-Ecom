@@ -1,9 +1,11 @@
 import React from "react";
 
-const Order = () => {
-    <div>
-        <h1>Comming Soon....</h1>
-    </div>
-};
-
-export default Order;
+export default function Order() {
+    return (
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <div>
+      Orders
+      </div>
+      </main>
+    )
+  }
